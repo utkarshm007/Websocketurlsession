@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7935D2872DAE2FF20010DCF5 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 7935D2862DAE2FF20010DCF5 /* SocketIO */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7935D2602DAE2B820010DCF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,16 +39,6 @@
 			path = Websocketapp;
 			sourceTree = "<group>";
 		};
-		7935D2622DAE2B820010DCF5 /* WebsocketappTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebsocketappTests;
-			sourceTree = "<group>";
-		};
-		7935D26C2DAE2B820010DCF5 /* WebsocketappUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebsocketappUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7935D2872DAE2FF20010DCF5 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				7935D2512DAE2B7F0010DCF5 /* Websocketapp */,
-				7935D2622DAE2B820010DCF5 /* WebsocketappTests */,
-				7935D26C2DAE2B820010DCF5 /* WebsocketappUITests */,
 				7935D2502DAE2B7F0010DCF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +105,7 @@
 			);
 			name = Websocketapp;
 			packageProductDependencies = (
+				7935D2862DAE2FF20010DCF5 /* SocketIO */,
 			);
 			productName = Websocketapp;
 			productReference = 7935D24F2DAE2B7F0010DCF5 /* Websocketapp.app */;
@@ -129,9 +123,6 @@
 			);
 			dependencies = (
 				7935D2612DAE2B820010DCF5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7935D2622DAE2B820010DCF5 /* WebsocketappTests */,
 			);
 			name = WebsocketappTests;
 			packageProductDependencies = (
@@ -152,9 +143,6 @@
 			);
 			dependencies = (
 				7935D26B2DAE2B820010DCF5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7935D26C2DAE2B820010DCF5 /* WebsocketappUITests */,
 			);
 			name = WebsocketappUITests;
 			packageProductDependencies = (
@@ -195,6 +183,9 @@
 			);
 			mainGroup = 7935D2462DAE2B7F0010DCF5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7935D27C2DAE2F620010DCF5 /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7935D2502DAE2B7F0010DCF5 /* Products */;
 			projectDirPath = "";
@@ -558,6 +549,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7935D27C2DAE2F620010DCF5 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7935D2862DAE2FF20010DCF5 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7935D27C2DAE2F620010DCF5 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7935D2472DAE2B7F0010DCF5 /* Project object */;
 }
