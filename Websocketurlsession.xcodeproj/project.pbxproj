@@ -35,16 +35,6 @@
 			path = Websocketurlsession;
 			sourceTree = "<group>";
 		};
-		7935D2A42DAFAD3F0010DCF5 /* WebsocketurlsessionTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebsocketurlsessionTests;
-			sourceTree = "<group>";
-		};
-		7935D2AE2DAFAD3F0010DCF5 /* WebsocketurlsessionUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WebsocketurlsessionUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				7935D2932DAFAD3A0010DCF5 /* Websocketurlsession */,
-				7935D2A42DAFAD3F0010DCF5 /* WebsocketurlsessionTests */,
-				7935D2AE2DAFAD3F0010DCF5 /* WebsocketurlsessionUITests */,
 				7935D2922DAFAD3A0010DCF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				7935D2A32DAFAD3F0010DCF5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7935D2A42DAFAD3F0010DCF5 /* WebsocketurlsessionTests */,
-			);
 			name = WebsocketurlsessionTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				7935D2AD2DAFAD3F0010DCF5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7935D2AE2DAFAD3F0010DCF5 /* WebsocketurlsessionUITests */,
 			);
 			name = WebsocketurlsessionUITests;
 			packageProductDependencies = (
